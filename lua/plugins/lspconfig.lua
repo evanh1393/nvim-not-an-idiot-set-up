@@ -8,7 +8,7 @@ return {
           settings = {
             intelephense = {
               -- Use the environment variable or local file
-              licenceKey = vim.env.INTELEPHENSE_LICENSE or require("local.intelephense").licenceKey,
+              licenceKey = vim.env.INTELEPHENSE_LICENSE,
             },
           },
         },
